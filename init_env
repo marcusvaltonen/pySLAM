@@ -1,0 +1,2 @@
+local SLAMPATH="$(dirname "$(readlink -f "$0")")"
+export PYTHONPATH=$SLAMPATH:$PYTHONPATH
